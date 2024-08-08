@@ -8,6 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.kakaoimageapi.BuildConfig
 import com.example.kakaoimageapi.databinding.FragmentSearchBinding
+import com.example.kakaoimageapi.retrofit.KakaoImageResponse
+import com.example.kakaoimageapi.retrofit.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

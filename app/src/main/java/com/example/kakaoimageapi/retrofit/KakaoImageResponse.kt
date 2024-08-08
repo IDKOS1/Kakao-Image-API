@@ -1,3 +1,5 @@
+package com.example.kakaoimageapi.retrofit
+
 import com.google.gson.annotations.SerializedName
 
 data class KakaoImageResponse(
