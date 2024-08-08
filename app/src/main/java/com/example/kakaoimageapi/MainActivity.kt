@@ -1,5 +1,6 @@
 package com.example.kakaoimageapi
 
+import SearchFragment
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +8,6 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.kakaoimageapi.ui.adapter.MainViewpagerAdapter
 import com.example.kakaoimageapi.databinding.ActivityMainBinding
 import com.example.kakaoimageapi.ui.bookmark.BookmarkFragment
-import com.example.kakaoimageapi.ui.search.SearchFragment
 
 class MainActivity : AppCompatActivity() {
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
