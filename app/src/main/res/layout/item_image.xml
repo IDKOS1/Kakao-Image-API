@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_title"
+        android:id="@+id/tv_site_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -40,6 +40,6 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@id/iv_thumbnail"
         app:layout_constraintStart_toStartOf="@id/iv_thumbnail"
-        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+        app:layout_constraintTop_toBottomOf="@id/tv_site_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
