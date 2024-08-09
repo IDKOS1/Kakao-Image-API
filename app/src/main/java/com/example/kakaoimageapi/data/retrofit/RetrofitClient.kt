@@ -1,4 +1,4 @@
-package com.example.kakaoimageapi.retrofit
+package com.example.kakaoimageapi.data.retrofit
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
